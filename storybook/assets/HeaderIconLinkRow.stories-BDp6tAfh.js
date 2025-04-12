@@ -1,0 +1,19 @@
+import{j as n}from"./jsx-runtime-B1AhRb-V.js";import{I as p}from"./IconLinkVertical-D2NbrmgA.js";import{m as d}from"./makeStyles-CkJZxfhX.js";import"./index-CV65Cz2T.js";import"./index-DSEhRz7_.js";import"./interopRequireDefault-Y9pwbXtE.js";import"./createSvgIcon-B6km7FGr.js";import"./capitalize-52YtlJa-.js";import"./defaultTheme-WHYcXxGo.js";import"./withStyles-C_eMWQcb.js";import"./hoist-non-react-statics.cjs-DscmM33_.js";import"./createChainedFunction-Da-WpsAN.js";import"./createSvgIcon-BoOF83CO.js";import"./debounce-DtXjJkxj.js";import"./isMuiElement-DG475NJP.js";import"./ownerWindow-D1FXuRdm.js";import"./useIsFocusVisible-B2Dvw-Ws.js";import"./index-V23z6GDy.js";import"./useControlled-ltvK4nzt.js";import"./unstable_useId-DsWtIzNz.js";import"./Box-Y2gNioDL.js";import"./typography-0XlFLCN0.js";import"./Typography-DFGLiOLt.js";import"./Link-BYFNg5bx.js";import"./lodash-D2SO6J9k.js";import"./index-CMym2nmu.js";import"./ApiRef-DQ_p_ST9.js";import"./useAnalytics-y3ZaQqe-.js";import"./ConfigApi-fH7dLXu8.js";const u=d(e=>({links:{margin:e.spacing(2,0),display:"grid",gridAutoFlow:"column",gridAutoColumns:"min-content",gridGap:e.spacing(3)}}),{name:"BackstageHeaderIconLinkRow"});function a(e){const{links:l}=e,s=u();return n.jsx("nav",{className:s.links,children:l.map((m,c)=>n.jsx(p,{...m},c+1))})}a.__docgenInfo={description:`HTML nav tag with links mapped inside
+
+@public`,methods:[],displayName:"HeaderIconLinkRow",props:{links:{required:!0,tsType:{name:"Array",elements:[{name:"signature",type:"object",raw:`{
+  color?: 'primary' | 'secondary';
+  disabled?: boolean;
+  href?: string;
+  icon?: ReactNode;
+  label: string;
+  onClick?: MouseEventHandler<HTMLAnchorElement>;
+  title?: string;
+}`,signature:{properties:[{key:"color",value:{name:"union",raw:"'primary' | 'secondary'",elements:[{name:"literal",value:"'primary'"},{name:"literal",value:"'secondary'"}],required:!1}},{key:"disabled",value:{name:"boolean",required:!1}},{key:"href",value:{name:"string",required:!1}},{key:"icon",value:{name:"ReactNode",required:!1}},{key:"label",value:{name:"string",required:!0}},{key:"onClick",value:{name:"MouseEventHandler",elements:[{name:"HTMLAnchorElement"}],raw:"MouseEventHandler<HTMLAnchorElement>",required:!1}},{key:"title",value:{name:"string",required:!1}}]}}],raw:"IconLinkVerticalProps[]"},description:""}}};const O={title:"Data Display/HeaderIconLinkRow",component:a},r=e=>n.jsx(a,{...e});r.args={links:[{color:"primary",disabled:!1,href:"https://google.com",label:"primary",title:"title"},{color:"secondary",disabled:!1,href:"https://google.com",label:"secondary",title:"title-2"}]};r.__docgenInfo={description:"",methods:[],displayName:"Default",props:{links:{required:!0,tsType:{name:"Array",elements:[{name:"signature",type:"object",raw:`{
+  color?: 'primary' | 'secondary';
+  disabled?: boolean;
+  href?: string;
+  icon?: ReactNode;
+  label: string;
+  onClick?: MouseEventHandler<HTMLAnchorElement>;
+  title?: string;
+}`,signature:{properties:[{key:"color",value:{name:"union",raw:"'primary' | 'secondary'",elements:[{name:"literal",value:"'primary'"},{name:"literal",value:"'secondary'"}],required:!1}},{key:"disabled",value:{name:"boolean",required:!1}},{key:"href",value:{name:"string",required:!1}},{key:"icon",value:{name:"ReactNode",required:!1}},{key:"label",value:{name:"string",required:!0}},{key:"onClick",value:{name:"MouseEventHandler",elements:[{name:"HTMLAnchorElement"}],raw:"MouseEventHandler<HTMLAnchorElement>",required:!1}},{key:"title",value:{name:"string",required:!1}}]}}],raw:"IconLinkVerticalProps[]"},description:""}}};var o,i,t;r.parameters={...r.parameters,docs:{...(o=r.parameters)==null?void 0:o.docs,source:{originalSource:"(args: Props) => <HeaderIconLinkRow {...args} />",...(t=(i=r.parameters)==null?void 0:i.docs)==null?void 0:t.source}}};const z=["Default"];export{r as Default,z as __namedExportsOrder,O as default};
